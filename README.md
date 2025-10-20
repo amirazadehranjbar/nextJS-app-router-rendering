@@ -35,3 +35,32 @@ Currently, the home page (`app/page.tsx`) shows a simple Server Component exampl
    ```bash
    git clone https://github.com/amirazadehranjbar/nextJS-app-router-rendering.git
    cd nextJS-app-router-rendering
+
+
+🗺 Roadmap
+
+Add Parallel Routes examples.
+Implement Metadata API for SEO.
+Test with Turbopack.
+Full documentation for each example.
+Deploy on Vercel with different environments.
+
+Suggestion: Add one new feature per week and commit it. This way, you'll track your progress!
+🤝 Contributing
+Love Next.js? Help out!
+
+Fork the project.
+Create a new branch: git checkout -b feature/amazing-feature.
+Commit your changes: git commit -m 'Add amazing feature'.
+Push to the branch and open a Pull Request.
+
+Teacher's Note: Always write clean code and use TypeScript to catch errors early.
+📄 License
+This project is licensed under the MIT License. Feel free to use, modify, and distribute.
+🙏 Acknowledgments
+
+Next.js Docs – The main learning resource.
+Vercel – For easy deployment.
+
+
+⭐ If it's helpful, give it a star! Have questions? Ask in Issues or comments. Good luck learning Next.js! 💪
