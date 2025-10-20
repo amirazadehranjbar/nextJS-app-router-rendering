@@ -1,26 +1,25 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+.myH3{
+    @layer{
+        @apply text-4xl text-center border-b w-full mb-4 bg-fuchsia-300
+    }
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+.formContainer{
+    @layer{
+        @apply p-2 border w-full flex flex-col content-center items-center
+    }
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+.button{
+    @layer{
+        @apply px-2 py-1 border-slate-400 border rounded-md text-gray-800 font-mono font-bold cursor-pointer mb-4 mt-4
+    }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+.input{
+    @layer{
+        @apply border-2 px-3 py-1 rounded-md bg-indigo-400 border-indigo-300 placeholder:text-slate-300 text-gray-200 focus:outline-none
+    }
 }
